@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Grid Bih </title>
+	<style type="text/css">
+
+		body{
+			background: lightpink;
+		}
+
+		*{
+			box-sizing: border-box;
+		}
+
+		html, body{
+			margin: 0;
+			padding: 0;
+		}
+
+		.container{
+			background: lightpink;
+			min-height: 100vh;
+			display: grid;
+			grid-template-columns: 5fr 5fr 5fr;
+			grid-template-rows: 5fr 5fr 5fr;
+			grid-template-areas:
+				"b1 b2 b3"
+				"b4 b5 b5"
+				"b6 b6 b7";
+			grid-gap: 10px;
+			padding:10px;
+		}
+
+		#bih1{
+			grid-area: b1;
+			background: url(https://res.cloudinary.com/teepublic/image/private/s--z6mPzmXf--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1511168274/production/designs/2078885_1.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih2{
+			grid-area: b2;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYtu8DmpxBUC1-JYszYkP2hKajZoAFaA866zH2FWyan35lFpnRYw);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih3{
+			grid-area: b3;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPmhirN7lr2Y0KcJXQrdjGTSDo_8CWeREE5MVsIv2AVu7cgyW);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih4{
+			grid-area: b4;
+			background: url(https://scontent-frt3-2.cdninstagram.com/vp/0550cbefa65b3ae62511541eb695e691/5C544401/t51.2885-15/e35/33882743_174135106554348_5769430230141763584_n.jpg?ig_cache_key=MTc5MzAzMjY0NTgyMzgzNTcyMA%3D%3D.2);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih5{
+			grid-area: b5;
+			background: url(https://scontent-frt3-2.cdninstagram.com/vp/5f1da5e2ffc28be470dbd0c59de8cfe3/5C4C6E0E/t51.2885-15/e35/32467354_2097866056909884_298512227210625024_n.jpg?se=7&ig_cache_key=MTc4NTg3NjcwMTQ2NTc0NTg1Nw%3D%3D.2);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih6{
+			grid-area: b6;
+			background: url(http://yumestate.com/wp-content/uploads/2012/05/tsuritama-ep2-p4.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#bih7{
+			grid-area: b7;
+			background: url(https://i.pinimg.com/originals/9f/c4/1e/9fc41e2b8c96c77977a581664b9d8709.gif);
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container"> 
+		<div class="item" id="bih1"> </div>
+		<div class="item" id="bih2"> </div>
+		<div class="item" id="bih3"> </div>
+		<div class="item" id="bih4"> </div>
+		<div class="item" id="bih5"> </div>
+		<div class="item" id="bih6"> </div>
+		<div class="item" id="bih7"> </div>
+	</div>
+</body>
+</html>
